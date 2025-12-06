@@ -1,0 +1,44 @@
+# Arquivos de configuração sensíveis
+config/config.php
+src/database/connection.php
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Diretórios de upload
+uploads/
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependências (se usar Composer no futuro)
+vendor/
+composer.lock
+
+# Backups
+*.bak
+*.backup
+*.sql.bak
+
+# Arquivos temporários
+tmp/
+temp/
+*.swp
+*~
+
+# Scripts sensíveis que devem ser removidos em produção
+src/scripts/create_users.php
