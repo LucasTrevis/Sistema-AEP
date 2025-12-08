@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </label>
             <button type="submit">Entrar no Sistema</button>
         </form>
-        <p style="margin-top:20px;"><a href="report.php">📊 Ver relatórios públicos</a></p>
+        <p style="margin-top:20px;"><a href="report.php" class= "btn-public">📊 Ver relatórios públicos</a></p>
     </div>
 </body>
 

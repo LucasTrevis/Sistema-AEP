@@ -63,10 +63,25 @@ textarea {
     resize: vertical;
     font-family: inherit;
 }
+.btn-public {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background: #5e503f;  
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-public:hover {
+    background: #4a4234;
+}
 
 button {
-    padding: 12px 24px;
-    margin-top: 16px;
+    padding: 15px 15px;
+    margin-top:6px;
     background: #5e503f;
     color: #eae0d5;
     border: none;
@@ -75,6 +90,8 @@ button {
     font-size: 15px;
     font-weight: 600;
     box-shadow: 0 4px 12px rgba(94, 80, 63, 0.2);
+    width: 100%;
+
 }
 
 button:hover {
