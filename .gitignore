@@ -39,6 +39,3 @@ tmp/
 temp/
 *.swp
 *~
-
-# Scripts sensíveis que devem ser removidos em produção
-src/scripts/create_users.php
